@@ -1,0 +1,17 @@
+{
+  "name": "graph",
+  "version": "0.0.0",
+  "repo": "goodcleanfun/graph",
+  "description": "Dynamic graph representation using per-node dynamic contiguous arrays of edges, efficiently indexable by node. Roughly the same memory as CSR sparse matrices but with O(1) edge insertion.",
+  "keywords": ["graph", "dynamic", "contiguous", "array"],
+  "license": "MIT",
+  "development": {
+    "silentbicycle/greatest": "*"
+  },
+  "dependencies": {
+    "goodcleanfun/aligned_array": "*",
+    "goodcleanfun/concurrent_array": "*",
+    "goodcleanfun/packed_memory_array": "*"
+  },
+  "src": ["src/graph.h"]
+}
