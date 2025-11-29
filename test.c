@@ -1,6 +1,5 @@
 #include <stdint.h>
 #include "greatest/greatest.h"
-#include "char_array/char_array.h"
 
 #define GRAPH_NAME test_graph
 #define GRAPH_INDEX_TYPE uint32_t
